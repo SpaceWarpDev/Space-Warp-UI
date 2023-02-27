@@ -102,6 +102,6 @@ public class consoleTestUI : MonoBehaviour
         {
             drawUI = !drawUI;
         }
-        debugMessages.Add("[LOG] [Modname] BALLS");
+        debugMessages.Add("[LOG] [Modname] This is a very appropriate testing message.");
     }
 }
