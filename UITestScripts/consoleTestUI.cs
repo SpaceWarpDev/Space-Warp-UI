@@ -14,6 +14,12 @@ public class consoleTestUI : MonoBehaviour
     private Rect windowRect;
     private int windowWidth = 700;
     private int windowHeight = 350;
+
+    private bool toggleToggled = false;
+
+    private string textFieldTest = "hello world";
+
+    private string textAreaTest = "bee";
     // Start is called before the first frame update
     void Start()
     {
@@ -90,7 +96,11 @@ public class consoleTestUI : MonoBehaviour
         if (GUILayout.Button("Clear Control Locks"))
         {
         }
+
         GUILayout.EndHorizontal();
+        toggleToggled = (GUILayout.Toggle(toggleToggled, "toggle"));
+        textFieldTest = GUILayout.TextField(textFieldTest);
+        textAreaTest = GUILayout.TextArea(textAreaTest);
         GUILayout.EndVertical();
         GUI.DragWindow(new Rect(0, 0, 10000, 500));
     }

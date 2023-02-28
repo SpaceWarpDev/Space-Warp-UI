@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 3153284962
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 46e9a48087ec000f5ac278511ae41452
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bf72de8b06938aa7913d599dc2f25361
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUISettings
+- AssemblyName: UnityEngine.IMGUIModule
+  ClassName: UnityEngine.GUIStyle
+Assets:
+- Assets/swconsoleUI/borderRadiusDark.png
+- Assets/swconsoleUI/GNUUnifont9FullHintInstrUCSUR.ttf
+- Assets/swconsoleUI/bgDark.png
+- Assets/swconsoleUI/bgLight.png
+- Assets/swconsoleUI/borderRadiusLight.png
+- Assets/swconsoleUI/toggle_hover.png
+- Assets/AssetBundles/toggle_normal.png
+- Assets/swconsoleUI/toggle_on_active.png
+- Assets/swconsoleUI/toggle_active.png
+- Assets/swconsoleUI/genNormal.png
+- Assets/swconsoleUI/spacewarpConsole.guiskin
+- Assets/swconsoleUI/toggle_on_hover.png
+- Assets/swconsoleUI/genActive.png
+- Assets/swconsoleUI/toggle_on_normal.png
+Dependencies: []

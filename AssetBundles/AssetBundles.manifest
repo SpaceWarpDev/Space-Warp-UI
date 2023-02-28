@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 1731543413
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: swconsoleui
+      Dependencies: {}
+    Info_1:
+      Name: test
+      Dependencies: {}
